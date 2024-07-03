@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    background: #C1244F;
+    background: linear-gradient(270deg, #C1244F, #142B71);
+}
+
+header {
+    margin-top: 12px;
+    letter-spacing: 2px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#time {
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: 12px;
+    padding: 12px;
+    text-align: center;
+}
+
+#circle {
+    width: 500px;
+    height: 500px;
+    margin: 2rem;
+    border: 4px solid red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    padding-top: 12px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+#start, #pause {
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    width: 75px;
+    height: 75px;
+}
