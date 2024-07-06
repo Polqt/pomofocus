@@ -48,7 +48,7 @@ const pauseTimer = () => {
     if (isRunning && !isPaused) {
         clearInterval(myInterval);
         isPaused = true;
-    } else if (isPuased) {
+    } else if (isPaused) {
         alert("Timer is already paused.");
     };
 }
